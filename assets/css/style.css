@@ -1,0 +1,27 @@
+@import url('https://fonts.cdnfonts.com/css/led-dot-matrix');
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: #111;
+      font-family: 'LED Dot-Matrix', sans-serif;
+      color: #fff;
+      text-align: center;
+    }
+    canvas {
+      display: block;
+      margin: 0 auto;
+      background: #222;
+    }
+    #startBtn {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 260px; /* بعداً قابل تنظیم */
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #0f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
