@@ -1,8 +1,7 @@
 const canvas = document.getElementById('gameCanvas');
-    const ctx = canvas.getContext('2d');
-    const startBtn = document.getElementById('startBtn');
-
-    let paddle, ball, score, highScore, obstacles, isGameOver;
+const ctx = canvas.getContext('2d');
+const startBtn = document.getElementById('startBtn');
+let paddle, ball, score, highScore, obstacles, isGameOver;
 
     function initGame() {
       paddle = {
