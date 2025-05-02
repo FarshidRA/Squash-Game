@@ -17,7 +17,7 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 260px; /* بعداً قابل تنظیم */
+  top: 260px; 
   padding: 10px 20px;
   font-size: 18px;
   background-color: #0f0;
