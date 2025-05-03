@@ -189,3 +189,4 @@ startBtn.style.left = (canvas.offsetLeft + canvas.width / 2) + 'px';
     // FIRST RUN
     initGame();
     draw();
+})();
