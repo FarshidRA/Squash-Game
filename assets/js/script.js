@@ -1,4 +1,4 @@
-window.onload = function () {
+(function () {
 	const canvas = document.getElementById('gameCanvas');
 	const ctx = canvas.getContext('2d');
 	const startBtn = document.getElementById('startBtn');
@@ -160,4 +160,4 @@ window.onload = function () {
 // FIRST RUN
 initGame();
 draw();
-};
+})();
