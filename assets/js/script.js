@@ -45,7 +45,7 @@
 	function drawBall() {
 		ctx.beginPath();
 		ctx.arc(ball.x, ball.y, ball.radius, 0, Math.PI * 2);
-		ctx.fillStyle = '#a8fa69';
+		ctx.fillStyle = '#22aa67';
 		ctx.fill();
 		ctx.closePath();
 
